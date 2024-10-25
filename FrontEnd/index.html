@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Every web page  have a page title to describe the meaning of the page. -->
+    <title>HTML</title>
+    <!-- A favicon is a small image displayed next to the page title in the browser tab. -->
+    <link rel="icon" type="image/x-icon" href="download.jpeg">
+</head>
+<body>
+    <!-- comment is written like this,  The use of comment in programing langauge is that it can increse the readablity of a code ,it cannot execute the compiler .-->
+     <!-- topic 1 -->
+    <!--how to print hello world in webpage  -->
+    Hello world!
+
+
+    <!-- topic 2 -->
+     <!-- heading Tags in HTML ->Total 6heading tags are used in html h1 to h6 the h1 -->
+      <h1>This is heading 1</h1>
+      <h2>This is heading 2</h2>
+      <h3>This is heading 3</h3>
+      <h4>This is heading 4</h4>
+      <h5>This is heading 5</h5>
+      <h6>This is heading 6</h6>
+
+
+      <!-- topic 3 -->
+       <!-- paragraph tag in html ->This is used when we write the some content in it. -->
+        <h3>Paragraph</h3>
+        <p>This is a paragraph that is used to hold the text and also it is block level element in html we can discuss the block  and inline in next topics. </p>
+
+        <!-- topics 4 -->
+         <!-- Block And inline element -->
+          <!-- Block Elements are those elements ih thml which starting on a new line and taking up the full width available. They are usually used to define structural components of a web page, such as paragraphs, headings, lists, and containers.
+ -->
+          <!-- Best Example of Block Elements are 
+
+1. Headings: h1, h2, h3, h4, h5, h6
+2. Paragraphs: p
+3. Lists: ul, ol, dl
+4. Divisions: div
+5. Containers: section, article, aside, nav, header, footer
+6. Blockquotes: blockquote
+7. Tables: table
+8. Forms: form
+ -->
+
+
+ <!-- inline elements in html -->
+  <!-- In HTML, inline elements are those that occupy only the space needed for their content, typically without starting a new line. They are usually used to define text-level semantics, such as emphasis, links, or images, within a block-level element.
+ -->
+  <!-- Best example of a inline element is Span tag. the other examples are 
+  1. Text-level semantics:
+    - span
+    - a (anchor/link)
+    - abbr (abbreviation)
+    - acronym (acronym)
+    - b (bold)
+    - i (italic)
+    - strong (strong emphasis)
+    - em (emphasis)
+2. Image and media:
+    - img
+    - audio
+    - video
+3. Input and interaction:
+    - input (text, password, etc.)
+    - label
+    - button
+    - textarea
+    - select
+    - option
+ 
+  -->
+
+
+
+  <!-- topic 5 -->
+   <!-- Attributes in Html -> in html attributes provide an extra information about html elements. and always cone name value pair in html. -->
+    <h2>Anchor Tag Attributes</h2>
+    <a href="https://github.com/EngrJamshaid/WebDesign-Development.git">WebDesign-Development</a>
+
+    <!-- in above example a is a html tag and  href is an attribute which provid ena extra informtion about a.-->
+
+    <!-- topic 6 -->
+     <!-- Html Text formating-> HTML contains several elements for defining text with a special meaning. -->
+      <!-- Bold text -->
+       <h3>Text Formating</h3>
+<p>This text is <b>bold</b>.</p>
+
+<!-- Important text -->
+<p>This warning is <strong>very important</strong>.</p>
+
+<!-- Italic text -->
+<p>The book title is <i>The Great Gatsby</i>.</p>
+
+<!-- Emphasized text -->
+<p>Please <em>read this carefully</em>.</p>
+
+<!-- Marked text -->
+<p>This text is <mark>highlighted</mark>.</p>
+
+<!-- Smaller text -->
+<p>This is <small>fine print</small>.</p>
+
+<!-- Deleted text -->
+<p>Old price: <del>$99.99</del></p>
+
+<!-- Inserted text -->
+<p>New price: <ins>$79.99</ins></p>
+
+
+
+<!-- topic 7 -->
+ <!-- HTML links are hyperlinks.
+
+we can click on a link and jump to another document.
+
+When we move the mouse over a link, the mouse arrow will turn into a little hand. -->
+
+<h3>Links in HTML</h3>
+<a href="https://github.com/EngrJamshaid/WebDesign-Development.git" target="_blank">WebDevelopment</a>
+
+<!-- The target attribute can have one of the following values:
+
+_self - Default. Opens the document in the same window/tab as it was clicked
+_blank - Opens the document in a new window or tab
+_parent - Opens the document in the parent frame -->
+
+
+<!-- Absolute VS Relative URL -->
+<!-- Absolute URL:
+
+- Starts with the protocol (http/https) and domain name.
+- Specifies the full path to a resource.
+- Works from anywhere on the web. -->
+<p><a href="https://www.google.com/">Google</a></p>
+
+<!-- Relative URL:
+
+- Doesn't start with the protocol or domain name.
+- Specifies the path relative to the current page.
+- Depends on the current page's location.
+ -->
+ <p><a href="download.jpeg">Book</a></p>
+
+
+ <!-- topic 7 -->
+  <!-- HTML images=Images can improve the design and the appearance of a web page.it can also be an absolute or rlative. -->
+   <h3>image</h3>
+   <img src="download.jpeg" alt="Bookimage">
+
+
+   <!-- topic 8 -->
+    <!-- Table =>HTML tables allow web developers to arrange data into rows and columns. -->
+<h3>Table</h3>
+    <table border="1" cellspacing="0" width="80%" >
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Roll No</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>Jamshiad</td>
+                <td>2021-SE-12</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Ali</td>
+                <td>2021-SE-17</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Bilal</td>
+                <td>2021-SE-20</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <!-- topic 9 -->
+     <!-- Lists=>HTML lists allow web developers to group a set of related items in lists.
+      Types are order and unorder lists
+ -->
+      <h4>Unorder List</h4>
+ <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+<h4>Order List</h4>
+  <ol>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+
+
+  <!-- topic 10 -->
+  <!--Div=> The <div> element is used as a container for other HTML elements. -->
+    <h3>div tag</h3>
+    <div><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum velit voluptatibus eaque!</p></div>
+
+    <!-- topic 11 -->
+     <!-- sementic and non sementic element
+     sementic->element with meaning
+     non-sementic->element without meaning -->
+
+<!-- <article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+     -->
+
+     <!-- non sementic=>div,span and etc -->
+
+     <!-- topic 12 -->
+      <!-- HTML Character Entities
+Some characters are reserved in HTML.
+
+If we use the less than (<) or greater than (>) signs in your HTML text, the browser might mix them with tags.
+
+Entity names or entity numbers can be used to display reserved HTML characters. -->
+<h1>HTML Entities Example</h1>
+
+<p>The price is &lt; $50 &gt;.</p>
+<!-- less-than (&lt;) and greater-than (&gt;) entities -->
+
+<p>This is an example of &amp; symbol.</p>
+<!-- ampersand (&amp;) entity -->
+
+<p>&copy; 2023 MyCompany. All rights reserved.</p>
+<!-- copyright (&copy;) entity -->
+
+<p>The cost is $&dollar;100&dollar;.</p>
+<!-- dollar (&dollar;) entity, though $ can also be used directly -->
+
+<h1>And Emoji are represent like</h1>
+
+<p>&#128512;</p>
+
+<!-- Topic 13 -->
+ <!-- Form in html-> An HTML form is used to collect user input. The user input is most often sent to a server for processing. -->
+  <h1 ><u>Form in Html</u></h1>
+<!--the action arrtibue are learn in next php section  -->
+  <form action="">
+Input text:<input type="text" name="" id=""> <br>
+ <br> <!-- Lin break -->
+ Input number:<input type="number" name="" id=""><br><br>
+ Input Email:<input type="email" name="" id=""><br><br>
+ Input password:<input type="password" name="" id=""><br><br>
+
+<h2>Input Radio</h2>
+<label for="first">First</label>
+<input type="radio" name="" id="first">
+<label for="second">second</label>
+<input type="radio" name="" id="second">
+<br><br>
+<h2>Checkbox</h2>
+<label for="check">checkbox?</label>
+<input type="checkbox" name="" id="check">
+
+<br><br>
+<h2>Select box</h2>
+<select name="" id="">
+    <option value="">First option</option>
+    <option value="" selected>second option</option>
+    <option value="">third option</option>
+    <option value="">fourth option</option>
+</select>
+<br><br>
+<input type="reset" value="Reset Form">
+<input type="submit" value="Submit form">
+  </form>
+
+  <!-- in  input section different attributes use which we discuss in php section  -->
+
+
+  <!-- topic 14 -->
+   <!-- iframe in html =>An HTML iframe is used to display a web page within a web page. -->
+<br><br>
+<h1>Iframe in HTML</h1>
+   <iframe src="https://www.wekipedia.com" height="300" width="500" title="Iframe Example"></iframe>
+
+
+
+
+
+
+</body>
+</html>
